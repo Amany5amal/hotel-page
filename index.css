@@ -1,0 +1,110 @@
+
+
+.page2 .m-room{
+    position: relative;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+    
+
+ 
+
+.page2 .m-room h1{
+   
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    top: 211px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 3;
+    
+}
+
+ 
+.page2 .m-room p{
+    position: absolute;
+width: 100%;
+height: 500px;
+top: -15px;
+background: rgba(0, 0, 0, 0.53);
+z-index: 2;
+
+}
+ 
+.page2 .m-room img{
+   object-fit: cover;
+   z-index: 1;
+}
+
+
+.page2 .row{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+    
+    .page2 .room-item img{
+    width: 470px;
+    height: 320px;
+    margin: 25px;
+    
+    
+     } 
+     .page2 h3{
+        
+    color: #4F4F4F;
+       
+    font-family: 'Poppins';
+    font-style: normal;
+    
+    text-align: center;
+    
+     }
+     .page2 .fb{
+        font-family: 'Roboto';
+        font-style: normal;
+        display: flex;
+        flex-direction: row;
+        
+     }
+     .page2 .fb p{
+        margin-left: 25px;
+        color: #9B51E0;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+     }
+    
+     .page2 .fb button{
+        text-align: center;
+        margin-left: 225px;
+        width: 100px;
+        height: 30px;
+        background: #9B51E0;
+        color: white;
+        border: 0px;
+        
+     }
+     @media screen and (max-width: 626px) {
+        .page2 .m-room h1{
+         font-size: 20px;
+        }
+    }
+     
